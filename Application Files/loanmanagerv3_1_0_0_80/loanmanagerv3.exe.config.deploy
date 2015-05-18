@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="loanmanagerv3.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="loanmanagerv3.My.MySettings.loanmanagerdbConnectionString"
+            connectionString="Data Source=MORRIS;Initial Catalog=loanmanagerdb;User ID=morris014;Password=7423346"
+            providerName="System.Data.SqlClient" />
+        <add name="loanmanagerv3.My.MySettings.loanmanagerdbConnectionString1"
+            connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\loanmanagerdb.mdf;Integrated Security=True;"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+    </startup>
+    <userSettings>
+        <loanmanagerv3.My.MySettings>
+            <setting name="Username" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Usertype" serializeAs="String">
+                <value />
+            </setting>
+        </loanmanagerv3.My.MySettings>
+    </userSettings>
+</configuration>
